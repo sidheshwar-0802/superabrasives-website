@@ -1,0 +1,23 @@
+.nav-item{
+    text-align: right;
+
+}
+.navbar-brand{
+    color:red;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+.iso{
+    color: black;
+    font-size: 12.75px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    vertical-align: center;
+}
+.dropdown-menu{
+    text-align: right;
+    border: none;
+}
+div ul{
+   text-align: left;
+}
