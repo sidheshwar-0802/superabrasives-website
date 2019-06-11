@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+.dropdown-item{
+  margin-bottom: 3px;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+@media (max-width: 992px) {
+  .mobileMenu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translateX(-100%);
+    transition: all ease 0.25s;
+    
+  }
+  .navbar-nav{
+      overflow-y: auto;
+  }
+  .dropdown-menu a:hover{
+    color: red;
+  }
+  .mobileMenu.onRight {
+    left:40%;
+    right: 0;
+    transform: translateX(100%);
+  }
+  .mobileMenu.open {
+    transform: translateX(0);
+  
+  }
+ li{
+   color: black !important;
+ }
+  .overlay {
+    position: fixed;
+    top: 0%;
+    bottom: 0;
+    left: 0%;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  .overlay.open {
+    display: block;
+  }
+}
+
+.navbar-brand{
+  color:red;
+  font-size: 28px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+
+}
+.navbar-toggler-icon{
+  float: right;
+}
+
+#iso{
+  transition: top 0.3s;
+  color: rgb(77, 73, 73);
+  position: relative;
+
+  }
+
+.triangle{
+  background-image: linear-gradient(to right bottom, red 50%, transparent 50%);
+  position: absolute;
+  margin-top: 25px;
+  width: 115%;
+  height: 55%;
+  top: 0;
+  left: 0;
+
+}
+
+div.shadow {
+  position:absolute;
+  max-width:45%;
+  max-height:45%;
+  top:50%;
+  left:50%;
+  overflow:visible;
+	box-shadow: none !important;
+}
+img.logo {
+  position: relative;
+  max-width:100%;
+  max-height:100%;
+  margin-top:-50%;
+  margin-left:-50%;
+}div.shadow1 {
+  position:absolute;
+  max-width:45%;
+  max-height:45%;
+  top:50%;
+  left:50%;
+  overflow:visible;
+	box-shadow: none !important;
+}
+.heading {
+  position:relative;
+  max-width:100%;
+  max-height:100%;
+  margin-top:60%;
+  margin-left:-50%;
+}
+.sub-heading{
+  position:relative;
+  max-width:100%;
+  max-height:100%;
+  margin-top:40%;
+  margin-left:-50%;
+}
+.dash{
+  padding : .1em 0 0 0;
+  width : 3em;
+  margin : 20px;
+  margin-left:35%;
+  background-color:black;
+
+}
+div h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: red;
+  font-size: 39.1px;
+}
+div h2{
+  font-family: Lobster;
+  font-size: 27.42px;
+  color: black;
+}
