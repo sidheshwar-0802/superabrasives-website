@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mounted Points - Super Abrasives</title>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <style>
+    .triangle1 {
+        -webkit-clip-path:polygon(0% 0%,0% 20%,100% 0%);
+      clip-path: polygon(0% 0%,0% 20%,100% 0%);
+            width: 100%;
+      height: 100vh;
+      background: red;
+    }
+
+    .triangle2 {
+      margin-top: 78px;
+      -webkit-clip-path: polygon(0% 0%, 0% 15%, 50% 0%);
+      clip-path: polygon(0% 0%, 0% 15%, 50% 0%);
+      width: 100%;
+      height: 100vh;
+      background: #3be5f5;
+      left: 0;
+    }
+    .triangle3 {
+      margin-top: 78px;
+      -webkit-clip-path:polygon(0% 0%,100% 20%,100% 0%);
+      clip-path: polygon(0% 0%,100% 20%,100% 0%);
+      width: 100%;
+      height: 100vh;
+      background: red;
+      right: 0;
+    }
+    .triangle5 {
+      -webkit-clip-path: polygon(0% 0%, 10% 0%, 50% 15%, 90% 0%, 100% 0%, 50% 18%);
+      clip-path: polygon(0% 0%, 10% 0%, 50% 15%, 90% 0%, 100% 0%, 50% 15%);
+      width: 100%;
+      height: 100vh;
+      background: #d4ff66;
+    }
+
+    .triangle4 {
+
+      -webkit-clip-path: polygon(10% 0%, 50% 15%, 90% 0%);
+      clip-path: polygon(10% 0%, 50% 15%, 90% 0%);
+      width: 100%;
+      height: 100vh;
+      background: #b7ff00;
+    }
+    #pic1{
+          
+         
+           box-shadow: 0 1px 6px rgba(0,0,0,.25);
+           border-radius: 8px;
+          
+    }
+    button {
+      all: unset;
+
+    }
+
+    .btn {
+      font-size: 19.55px;
+      font-weight: 500;
+      line-height: 1.026em;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, .5), inset 0 -2px 0 rgba(0, 0, 0, .25), inset 0 -3px 0 rgba(255, 255, 255, .2), 0 1px 0 rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3);
+      color: #fff2ea;
+      background: #FF9600;
+      width: 100%;
+      height: 50px;
+      width: 85%;
+      margin-bottom: 10px;
+    }
+  </style>1
+</head>
+
+<body>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/74d8f3489a.js"></script>
+
+  <script src="../js/script.js"></script>
+
+  <nav class="navbar navbar-expand-lg navbar-light mx-bg-light  fixed-top" style="border-bottom: 1px solid rgba(0,0,0,.05);">
+      <a class="navbar-brand order-0 order-lg-0 ml-lg-0 mr-2 align-self-start mr-sm-0" href="#">
+        <strong style="      
+            color:red;
+            position: relative;
+            font-size: 30.6px;       
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 900;">
+          Super Abrasives
+        </strong>
+      </a>
+  
+      <button class="navbar-toggler align-self-start" type="button" data-toggle="collapse" id="ham">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="mt-lg-0 mt-0 mt-sm-0" id="iso">
+        An ISO 9001-2 015 Company
+      </div>
+  
+  
+      <div
+        class="collapse navbar-collapse mx-bg-light p-3 mt-5 p-lg-0 mt-lg-0 d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-end mobileMenu onRight"
+        id="navbarSupportedContent">
+        <button class="navbar-toggler d-flex flex-row p-2  " type="button" data-toggle="collapse" id="close"
+          style="border: none; float: right;">
+          <span class="minus"><i class="fa fa-times" style="-webkit-text-stroke: 2px white; color:black !important;
+              "></i></span>
+        </button>
+  
+        <ul class="navbar-nav align-self-start mt-sm-2 mt-mx-2">
+  
+          <li class="nav-item active ">
+            <a class="nav-link" href="../index.html" style="color: red !important">Home</a>
+          </li>
+  
+  
+          <li class="nav-item ">
+            <div class="dropdown">
+              <a class="nav-link " data-toggle="dropdown">About Us <i class="fas fa-caret-down ml-2" id="arrow"></i> </a>
+              <div class="dropdown-menu mb-2" style="border:none;background-color: #F8F9FA">
+                <a class="dropdown-item mb-2" href="./vision.html">Vision & Mission</a>
+                <a class="dropdown-item mb-2" href="./profile.html">Establishment & Profile</a>
+                <a class="dropdown-item mb-2" href="./people.html">People Behind Super Abrasives</a>
+              </div>
+            </div>
+          </li>
+  
+          <li class="nav-item ">
+            <div class="dropdown">
+              <a class="nav-link" data-toggle="dropdown">Products <i class="fas fa-caret-down ml-2" id="arrow"
+                  style="@media (max-width: 445px) { margin-left:160px !important;}"></i></a>
+              <div class="dropdown-menu" style="border:none;background-color: #F8F9FA">
+                <a class="dropdown-item mb-2" href="./depressed.html">Depressed Centre Wheels</a>
+                <a class="dropdown-item mb-2" href="./reinforced.html">Reinforced Cut-off Wheels</a>
+                <a class="dropdown-item mb-2" href="./mounted.html">Mounted points</a>
+                <a class="dropdown-item" href="./swing.html">Swing Frames & Plain Wheels</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./Safety-measures.html">Safety Measures </a>
+          </li>
+          <li class="nav-item ">
+            <div class="dropdown">
+              <a class="nav-link" data-toggle="dropdown">Gallery <i class="fas fa-caret-down ml-2"></i></a>
+              <div class="dropdown-menu" style="border:none; background-color: #F8F9FA; ">
+                <a class="dropdown-item" href="./pictures.html">Pictures</a>
+                <a class="dropdown-item" href="./videos.html">Videos</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./enquiry.html">Enquiry </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./contact.html">Contact Us </a>
+          </li>
+        </ul>
+  
+  
+      </div>
+    </nav>
+    <div class="overlay"></div>
+
+  <section style=" position: relative; margin-top: 48px">
+    <div class="bottom-flex-container">
+      <div class="con1">
+        <div class="tri2 ">
+          <div class="con1">
+            <div class="tri1">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex-container" style="margin-top:20%">
+        <div class="main-head1 text-center " style=" flex-grow:0.5;margin-left:-10%">
+          <h1 style=" color: black;"><b>Mounted Points
+          </h1>
+          <div class="dash text-center" style="margin-left:40%"></div>
+        </div>
+        <div style="flex-grow:1; width:10%"></div>
+
+        <div style="flex-grow:1;">
+            <div class="code code--small code--left" data-aos="fade-right">
+              <img src="../img/mount.png" style="width:100%;margin-top:-15%;">
+            </div>
+          </div>
+      </div>
+
+    </div>
+
+    <div style=" margin-bottom:15%"></div>
+
+  </section>
+
+  <section>
+    <div class="bottom-flex-container" >
+      <div class="con1">
+        <div class="triangle1"></div>
+      </div>
+      <div class="flex-container" style="margin-top:15%;margin-left:5%;margin-right:10%;margin-bottom: 12%">
+        <div style="flex-grow: 1; z-index:2; position: relative;"class="whydiv">
+            <ul>
+                <li class="why">Mixture of fine and coarse grain</li>
+                <li class="why">Used for de-burring, sharpening and internal grinding</li>
+                <li class="why">Use “A” shapes for medium- to heavy-duty blending.</li>
+                <li class="why">Use “B” shapes for light deburring and finishing/polishing.</li>
+                <li class="why">Use “W” shapes for offhand and precision grinding of medium to heavy stock.</li>
+                </ul>   
+        </div>
+          <div style="flex-grow: 0">
+            <div class="code code--small code--left" data-aos="fade-right">
+              <img src="../img/m2.png" style="width:100%; height: 100%;">
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+  <section style=" position: relative;">
+    <div class="con2">
+      <div class="triangle3">
+      </div>
+    </div>
+    <div class="services mt-5 ">
+      <h1 class="flex-container" style="margin-top:10%; margin-bottom: 5%">
+        <div class="main-head1 text-center ">
+          <h1 style="color: black;"><b>Aplicable Areas</h1>
+        </div>
+      </h1>
+      <div class="flex-container">
+        <div style="width:15%"></div>
+        <div>
+          <div class="code code--small code--left" data-aos="fade-right">
+            <img id="pic1" src="../img/foundries.jpg" style="width:100%">
+            <h1 class="caption1 text-center" style="margin-top:5%"><strong>Foundries</strong></h1>
+          </div>
+        </div>
+        <div style="width: 15%"></div>
+        <div>
+          <div class="code code--small code--left"data-aos="fade-right">
+            <img id=pic1 src="../img/forging.jpg" style="width:100%">
+            <h1 class="caption1 text-center"  style="margin-top:5%"><strong>Forging and Die shops</strong></h1>
+          </div>
+        </div>
+        <div style="width:15%"></div>
+      </div>
+    </div>
+    <div style="margin-bottom:15%"></div>
+  </section>
+  <footer>
+    <div class="vl">
+      <div class="bottom-flex-container">
+        <div class="bottom-head text-center ">
+          <b>
+            <div class="arrowbox">
+              <a href="#" class="top">
+                <p><i class="arrow up" id="arrowup" style="color: black !important"></i></p>
+              </a>
+            </div>
+            <div><b>Super Abrasives</b></div>
+          </b>
+          <span class="sub-bottom" style="margin-bottom: 10% !important">
+            <a href="https://www.superabrasives.co.in/it-companies-in-kolhapur-happy-visitors-dot-com/"
+              style="  color: red !important; margin-bottom:-20px;">IT Companies Kolhapur</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+</body>
+
+</html>
